@@ -13,7 +13,7 @@ License: GNU General Public License
 -------------------------------------------------------------- */
 /* Reset
 -------------------------------------------------------------- */
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -333,7 +333,7 @@ select {
   padding: 0;
   margin: 0;
   background: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Courier New, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 26.64px;
   font-size: 18px;
   font-size: 1.8rem;
