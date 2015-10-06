@@ -132,9 +132,12 @@
 
 						<h1 class="title"><?php the_title() ?></h1>
 						<div class="post-meta">
+							<span class="comments-link">
+								<?php the_date(); ?>
+							</span>
 							<?php if( comments_open() ) : ?>
 								<span class="comments-link">
-									<?php comments_popup_link( __( 'Comment', 'less' ), __( '1 Comment', 'less' ), __( '% Comments', 'less' ) ); ?>
+									| <?php comments_popup_link( __( 'Comment', 'less' ), __( '1 Comment', 'less' ), __( '% Comments', 'less' ) ); ?>
 								</span>
 							<?php endif; ?>
 
