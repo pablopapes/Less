@@ -164,7 +164,7 @@
       <?php else : ?>
 
         <article class="post error">
-          <h1 class="404">Nothing posted yet</h1>
+          <h2 class="404">Nothing posted yet</h2>
         </article>
 
       <?php endif; ?>
@@ -201,7 +201,7 @@
       <?php else : ?>
 
         <article class="post error">
-          <h1 class="404">Nothing posted yet</h1>
+          <h2 class="404">Nothing posted yet</h2>
         </article>
 
       <?php endif; ?>
