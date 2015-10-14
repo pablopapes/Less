@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+@import url(https://fonts.googleapis.com/css?family=Actor);
 /*
 Theme Name: Less
 Theme URI: http://lessmade.com/themes/less
@@ -333,7 +334,7 @@ select {
   padding: 0;
   margin: 0;
   background: #ffffff;
-  font-family: Courier New, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Candara, "Actor", ubuntu, Courier New, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 26.64px;
   font-size: 18px;
   font-size: 1.8rem;
@@ -563,7 +564,7 @@ article .the-content a {
   text-decoration: none;
 }
 article .the-content p, ul {
-  color: #787878;
+  color: #565656;
 }
 article .the-content img {
   width: 100%;
