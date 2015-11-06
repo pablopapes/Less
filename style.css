@@ -586,7 +586,7 @@ article .the-content p, ul, ol {
   color: #565656;
 }
 article .the-content img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 article .meta {
