@@ -380,8 +380,9 @@ h1 {
 }
 h2 {
   line-height: 50.32px;
-  font-size: 34px;
-  font-size: 3.4rem;
+  font-size: 30px;
+  font-size: 3.0rem;
+  color: #404040;
 }
 h3 {
   line-height: 41.44px;
