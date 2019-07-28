@@ -3,6 +3,7 @@
 @import url(http://allfont.net/allfont.css?fonts=futura-normal);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Muli);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 /*
 Theme Name: Less
 Theme URI: http://lessmade.com/themes/less
@@ -356,7 +357,7 @@ select {
   padding: 0;
   margin: 0;
   background: #ffffff;
-  font-family: "Muli", Candara, "Actor", ubuntu, Courier New, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif ,"Muli", Candara, "Actor", ubuntu, Courier New, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 26.64px;
   font-size: 18px;
   font-size: 1.8rem;
@@ -505,7 +506,7 @@ header #brand {
   margin-top: 22px;
 }
 header #brand h1 {
-  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif, "Arvo", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
   color: #565656;
   line-height: 23.68px;
@@ -520,7 +521,7 @@ header #brand h1 a {
   text-decoration: none;
 }
 header #brand h1 span {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif,"Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
   color: #888888;
   text-transform: lowercase;
