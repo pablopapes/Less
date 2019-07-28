@@ -4,6 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Muli);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 /*
 Theme Name: Less
 Theme URI: http://lessmade.com/themes/less
@@ -372,7 +373,7 @@ h4,
 h5,
 h6 {
   clear: both;
-  font-family: 'Montserrat', sans-serif,"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans',  'Montserrat', sans-serif,"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1 {
   line-height: 71.03999999999999px;
