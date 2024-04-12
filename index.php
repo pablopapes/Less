@@ -46,7 +46,6 @@ get_header();
 
                                     <article class="post">
                                         <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-                                            <?php echo get_the_post_thumbnail(get_the_ID(), 'large', array('sizes' => '(max-width: 320px) 288px, (max-width: 375px) 343px, (max-width: 425px) 393px, (max-width: 540px) 493px, (max-width: 768px) 320px, (max-width: 999px) 435px, 288px')); ?>
                                             <h1 class="title">
                                                 <?php the_title() ?>
                                             </h1>
