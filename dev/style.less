@@ -18,24 +18,27 @@ License: GNU General Public License
 // Main
 @primary: #343434;
 @secondary: #007998;
-
+@text: #9e9587;
 // Shades
 @dark: #101010;
 @grey: #565656;
 @light-grey: #888888;
 @off-white: #f8f8f8;
+@light-grey: rgb(191, 184, 173);
 
 // Site background
-@site-bg: #fff;
+@site-bg: rgb(23, 23, 22);
 
 // Header background
 @header-bg: transparent;
+
+@heading: @light-grey;
 
 // Post Background
 @post-bg: transparent;
 
 // Footer background
-@footer-bg: #ffffff;
+@footer-bg: rgb(23, 23, 22);
 
 // Border colors
 @border-color: #dddddd;
@@ -68,13 +71,13 @@ License: GNU General Public License
 @title-text-size-mobile: 28;
 
 // Site name color
-@site-name-color: @grey;
+@site-name-color: @light-grey;
 
 // Site heading color
-@headinng-color: #404040;
+@headinng-color: @light-grey;
 
 // Site Text color
-@text-color: #787878;
+@text-color: @text;
 
 // Link colors
 @link-color: @secondary;
@@ -142,6 +145,7 @@ h5,
 h6 {
   clear: both;
   font-family: @heading-font;
+  color: @heading;
 }
 
 h1 {
@@ -178,6 +182,10 @@ ul, ol {
 
 ul {
   list-style: disc;
+}
+
+li {
+  color: @text-color;
 }
 
 ol {
@@ -223,6 +231,12 @@ pre {
   padding: 1.6em;
   overflow: auto;
   max-width: 100%;
+}
+
+/* span */
+span {
+  font-weight: 700;
+  color: @light-grey;
 }
 
 
@@ -400,7 +414,7 @@ article {
   // image post
   .wp-post-image {
     max-width: 100%;
-    height:  @img-home-height;
+    height: @img-home-height;
     width: @img-home-width;
   }
 
@@ -528,6 +542,10 @@ h3#comments {
     .children {
       margin-top: @margin;
     }
+
+    p {
+      color: @text-color;
+    }
   }
 
   //comment
@@ -586,6 +604,7 @@ footer {
   text-align: center;
   padding-bottom: 40px;
   font-size: 12px;
+  color: @light-grey;
 
 }
 
