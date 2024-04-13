@@ -17,7 +17,7 @@ License: GNU General Public License
 
 // Main
 @primary: #343434;
-@secondary: #007998;
+@secondary: #cecece;
 @text: #9e9587;
 // Shades
 @dark: #101010;
@@ -25,6 +25,7 @@ License: GNU General Public License
 @light-grey: #888888;
 @off-white: #f8f8f8;
 @light-grey: rgb(191, 184, 173);
+@white: #fff;
 
 // Site background
 @site-bg: rgb(23, 23, 22);
@@ -598,6 +599,8 @@ h3#comments {
 
 }
 
+
+
 // respond
 
 footer {
@@ -606,6 +609,9 @@ footer {
   font-size: 12px;
   color: @light-grey;
 
+  a {
+    color: @white;
+  }
 }
 
 // footer
@@ -683,6 +689,13 @@ html[xmlns] .clearfix {
   visibility: hidden;
 }
 
+// captions
+
+.wp-block-image {
+  figcaption {
+    color: @text-color;
+  }
+}
 
 /* Media Queries for desktop.
 -------------------------------------------------------------- */
@@ -696,7 +709,7 @@ html[xmlns] .clearfix {
 }
 
 
-/* Media Queries for responsivenessssssss
+/* Media Queries for responsive
 -------------------------------------------------------------- */
 
 @media (max-width: 767px) {

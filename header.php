@@ -2,7 +2,7 @@
     <div class="container container-header">
 
         <div class="gravatar">
-            <a href="<?php echo esc_url(home_url('/')); ?>">
+            <a href="<?php echo esc_url(home_url('/')); ?>" aria-label="gravatar link">
                 <?php
                 // grab admin email and their photo
                 $admin_email = get_option('admin_email');
