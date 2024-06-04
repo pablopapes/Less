@@ -616,10 +616,10 @@ article .meta .post-categories li {
   width: 100%;
 }
 #pagination .past-page {
-  float: right;
+  float: left;
 }
 #pagination .next-page {
-  float: left;
+  float: right;
 }
 /* Comments */
 h3#comments {
