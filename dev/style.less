@@ -175,6 +175,7 @@ hr {
 /* Text elements */
 p {
   margin-bottom: 1.5em;
+  margin-top: 1.5em;
 }
 
 ul, ol {
@@ -387,7 +388,7 @@ header {
 -------------------------------------------------------------- */
 
 article {
-  flex: 0 0 30%;
+  flex: 0 0 50%;
   background: @post-bg;
   padding: @post-padding;
   margin-bottom: 80px;
@@ -437,7 +438,7 @@ article {
   }
 
   .the-content {
-    text-align: justify;
+    text-align: left;
 
     a {
       font-weight: 900;
@@ -446,6 +447,7 @@ article {
 
     p {
       color: @text-color;
+      text-align: left;
     }
 
     img {
@@ -735,6 +737,7 @@ html[xmlns] .clearfix {
   article {
     .title {
       .font-size(@title-text-size-mobile);
+      text-align: left;
     }
 
     .wp-post-image {

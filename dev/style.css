@@ -365,6 +365,7 @@ hr {
 /* Text elements */
 p {
   margin-bottom: 1.5em;
+  margin-top: 1.5em;
 }
 ul,
 ol {
@@ -532,7 +533,7 @@ header nav ul li a {
 /* Posts/Articles
 -------------------------------------------------------------- */
 article {
-  flex: 0 0 30%;
+  flex: 0 0 50%;
   background: transparent;
   padding: 10px;
   margin-bottom: 80px;
@@ -570,7 +571,7 @@ article .post-meta a:hover {
   color: rgba(191, 184, 173, 0.5);
 }
 article .the-content {
-  text-align: justify;
+  text-align: left;
 }
 article .the-content a {
   font-weight: 900;
@@ -578,6 +579,7 @@ article .the-content a {
 }
 article .the-content p {
   color: #9e9587;
+  text-align: left;
 }
 article .the-content img {
   width: 100%;
@@ -755,6 +757,7 @@ html[xmlns] .clearfix {
     line-height: 41.44px;
     font-size: 28px;
     font-size: 2.8rem;
+    text-align: left;
   }
   article .wp-post-image {
     max-width: 100%;
