@@ -60,8 +60,8 @@ get_header();
 
                                 <!-- pagintation -->
                                 <div id="pagination" class="clearfix">
-                                    <div class="next-page"><?php next_posts_link('&raquo; Nuevos'); ?></div>
-                                    <div class="past-page "><?php previous_posts_link('Anteriores &laquo;'); ?></div>
+                                    <div class="past-page"><?php previous_posts_link(' Anteriores &raquo;'); ?></div>
+                                    <div class="next-page "><?php next_posts_link('&laquo; Nuevos '); ?></div>
                                 </div><!-- pagination -->
 
 
